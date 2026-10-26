@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="250" height="155" viewBox="0 0 250 155" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="stroke0_602_4598" fill="white">
+<path d="M250 77.5C250 120.302 194.036 155 125 155C55.9644 155 0 120.302 0 77.5C0 34.6979 55.9644 0 125 0C194.036 0 250 34.6979 250 77.5Z"/>
+</mask>
+<path id="&#195;&#147;rbita" d="M250 77.5C250 120.302 194.036 155 125 155C55.9644 155 0 120.302 0 77.5C0 34.6979 55.9644 0 125 0C194.036 0 250 34.6979 250 77.5Z" stroke="#F2F1ED" stroke-opacity="0.109" mask="url(#stroke0_602_4598)"/>
+</svg>

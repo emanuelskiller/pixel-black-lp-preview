@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="50" height="26" viewBox="0 0 50 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Chamada com o mentor">
+<rect width="50" height="26" rx="13" fill="#131315"/>
+<g id="lucide/video">
+<path id="Vector" d="M19.3333 13.5831L22.38 15.6142C22.4239 15.6435 22.475 15.6602 22.5276 15.6628C22.5803 15.6653 22.6327 15.6535 22.6793 15.6286C22.7258 15.6037 22.7646 15.5666 22.7918 15.5214C22.8189 15.4761 22.8332 15.4243 22.8333 15.3716V10.5906C22.8333 10.5393 22.8197 10.4888 22.794 10.4444C22.7683 10.4 22.7314 10.3632 22.6869 10.3376C22.6424 10.312 22.5919 10.2987 22.5406 10.2988C22.4893 10.299 22.4389 10.3127 22.3946 10.3386L19.3333 12.1247" stroke-width="1.16667" stroke-linecap="round" stroke-linejoin="round" stroke="#C2C1BE"/>
+<path id="Vector_2" d="M12.3333 9.5H18.1667C18.811 9.5 19.3333 10.0223 19.3333 10.6667V15.3333C19.3333 15.9777 18.811 16.5 18.1667 16.5H12.3333C11.689 16.5 11.1667 15.9777 11.1667 15.3333V10.6667C11.1667 10.0223 11.689 9.5 12.3333 9.5Z" stroke-width="1.16667" stroke-linecap="round" stroke-linejoin="round" stroke="#C2C1BE"/>
+</g>
+<circle id="Online" cx="35" cy="13" r="3" fill="#3CCB7F"/>
+</g>
+</svg>

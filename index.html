@@ -1,29 +1,22 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <link rel="preload" as="image" href="fig/5c739fd425139e7e76ae020c8d7f74733a8991f3.webp" imagesrcset="fig/rs/5c739fd425139e7e76ae020c8d7f74733a8991f3-480.webp 480w, fig/rs/5c739fd425139e7e76ae020c8d7f74733a8991f3-640.webp 640w, fig/rs/5c739fd425139e7e76ae020c8d7f74733a8991f3-828.webp 828w, fig/rs/5c739fd425139e7e76ae020c8d7f74733a8991f3-1080.webp 1080w, fig/rs/5c739fd425139e7e76ae020c8d7f74733a8991f3-1280.webp 1280w, fig/rs/5c739fd425139e7e76ae020c8d7f74733a8991f3-1600.webp 1600w, fig/rs/5c739fd425139e7e76ae020c8d7f74733a8991f3-2048.webp 2048w, fig/rs/5c739fd425139e7e76ae020c8d7f74733a8991f3-2560.webp 2560w, fig/rs/5c739fd425139e7e76ae020c8d7f74733a8991f3-3200.webp 3200w, fig/rs/5c739fd425139e7e76ae020c8d7f74733a8991f3-3840.webp 3840w" imagesizes="(max-width: 1023px) 1355px, (max-width: 1440px) 151.82vw, 2186px" fetchpriority="high">
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="theme-color" content="#0b0b0c" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <!-- preloader: fundo escuro desde o 1º frame; some sozinho se o script dele não carregar -->
-    <style>
-      html, body { background: #0b0b0c; margin: 0; }
-      #pbl:not(.is-drawn) { position: fixed; inset: 0; z-index: 9999; background: #0b0b0c; animation: pbl-fail 0s 12s forwards; }
-      @keyframes pbl-fail { to { visibility: hidden; } }
-    </style>
-    <noscript><style>#pbl { display: none !important; }</style></noscript>
+    <!-- feedback rodada 1: sem preloader — nada segura a primeira dobra. O código dele continua em src/preloader/ (fora do bundle). -->
+    <style>html, body { background: #0b0b0c; margin: 0; }</style>
+    <!-- #pre: hero pré-renderizado no build (scripts/prerender-hero.mjs); o React troca pelo de verdade ao montar -->
     <!-- VSL (HLS da ConverteAI): abre a conexão cedo; o glow ao vivo (vendor/glow-runtime.js) é carregado pelo app (src/fx/glow.ts) -->
     <link rel="preconnect" href="https://cdn.converteai.net" crossorigin />
     <title>Pixel Black · Agentes de IA pra assumir trabalho real</title>
-    <script type="module" crossorigin src="./assets/index-DOlJd4GR.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DDzi5sIy.css">
+    <script type="module" crossorigin src="./assets/index-tawf9YGZ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-AH71mqpH.css">
+    <script>(function(){var m=!!document.getElementById("pre"),go=function(){var d=document,l=m?["./assets/main-iX16pXlh.js","./assets/glow-DbCIFDqA.js","./assets/Mob-DizaNZUI.js","./assets/parts-1Oab-rYn.js"]:["./assets/main-iX16pXlh.js","./assets/glow-DbCIFDqA.js","./assets/Desk-BiY0Xz00.js","./assets/parts-1Oab-rYn.js"];for(var i=0;i<l.length;i++){var e=d.createElement("link");e.rel="modulepreload";e.crossOrigin="";e.href=l[i];d.head.appendChild(e)}};if(!m)return go();var k=0,f=function(){if(!k){k=1;setTimeout(go,0)}};try{new PerformanceObserver(function(x){if(x.getEntriesByName("first-contentful-paint").length)f()}).observe({type:"paint",buffered:true})}catch(e){f()}setTimeout(f,3000)})()</script>
   </head>
   <body>
-    <div id="pbl" class="pbl"></div>
     <div id="root"></div>
-    <!-- entrada leve: desenha o preloader e só então puxa o app (chunk separado) -->
   </body>
 </html>
